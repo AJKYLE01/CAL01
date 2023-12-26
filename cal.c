@@ -15,12 +15,20 @@ int diff(){
 	printf("\nThe difference is %d",a-b);
 	return 0;
 }
+int prod(){
+        int a,b;
+        printf("\nEnter the two numbers : ");
+        scanf("%d%d",&a,&b);
+        printf("\nThe product is %d",a*b);
+        return 0;
+}
 int main(){
 	char ch;
 	printf("\t\tCALCULATOR");
 	printf("\n\tFor sum       \t---- s");
 	printf("\n\tFor difference\t---- d");
-	printf("\nEnter your choice : ");
+	printf("\n\tFor product   \t---- p");
+	printf("\n\nEnter your choice : ");
 	scanf("%c",&ch);
 	switch(ch){
 		case 's':
@@ -29,6 +37,9 @@ int main(){
 		case 'd':
 			diff();
 			break;
+		case 'p':
+                        prod();
+                        break;
 		default:
 			printf("\n\tInvalid Entry.");
 			break;
