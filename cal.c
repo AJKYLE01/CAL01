@@ -24,7 +24,7 @@ int prod(){
 }
 int main(){
 	char ch;
-	printf("\t\tCALCULATOR");
+	printf("\t\tCal");
 	printf("\n\tFor sum       \t---- s");
 	printf("\n\tFor difference\t---- d");
 	printf("\n\tFor product   \t---- p");
